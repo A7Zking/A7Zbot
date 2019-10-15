@@ -121,8 +121,8 @@ member.guild.fetchInvites().then(guildInvites => {
                               if (err) return console.log(err);
       
                                     ctx.font = "bold 12px Arial";
-                              ctx.fontSize = '20px';
-                              ctx.fillStyle = "#f1f1f1";
+                              ctx.fontSize = '40px';
+                              ctx.fillStyle = "#edd28f";
                                 ctx.fillText(member.user.username, 200, 150);
                               
                               //NAMEً
@@ -136,7 +136,7 @@ member.guild.fetchInvites().then(guildInvites => {
                               let ava = new Avatar;
                               ava.src = buf;
                               ctx.beginPath();
-                              ctx.arc(77, 101, 62, 0, Math.PI*2);
+                              ctx.arc(106, 101, 62, 0, Math.PI*2);
                               ctx.stroke();
                                  ctx.clip();
                                  ctx.drawImage(ava, 13, 38, 128, 126); 
