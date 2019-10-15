@@ -121,15 +121,15 @@ member.guild.fetchInvites().then(guildInvites => {
                               if (err) return console.log(err);
       
                                     ctx.font = "bold 12px Arial";
-                              ctx.fontSize = '20px';
-                              ctx.fillStyle = "#f1f1f1";
+                              ctx.fontSize = '35px';
+                              ctx.fillStyle = "#edd28f";
                                 ctx.fillText(member.user.username, 200, 150);
                               
                               //NAMEً
                               ctx.font = "bold 12px Arial";
                               ctx.fontSize = '40px';
                               ctx.fillStyle = "#edd28f";
-      ctx.fillText(`Welcome To Server`, 260, 125);
+      ctx.fillText(`Marshal Discord Server`, 260, 125);
       
                               //AVATARً
                               let Avatar = Canvas.Image;
