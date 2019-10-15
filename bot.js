@@ -129,6 +129,7 @@ member.guild.fetchInvites().then(guildInvites => {
                               ctx.font = "bold 12px Arial";
                               ctx.fontSize = '40px';
                               ctx.fillStyle = "#edd28f";
+      ctx.fillText(`Welcome To Server`, 260, 125);
       
                               //AVATARً
                               let Avatar = Canvas.Image;
