@@ -164,5 +164,5 @@ member.addRole(KinG66S[member.user.id].roles.shift());
 });
       }
       });
-  
+   
 client.login(process.env.BOT_TOKEN)
