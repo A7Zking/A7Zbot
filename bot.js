@@ -123,13 +123,13 @@ member.guild.fetchInvites().then(guildInvites => {
                                     ctx.font = "bold 12px Arial";
                               ctx.fontSize = '40px';
                               ctx.fillStyle = "#edd28f";
-                                ctx.fillText(member.user.username, 220, 170);
+                                ctx.fillText(member.user.username, 200, 150);
                               
                               //NAMEً
                               ctx.font = "bold 12px Arial";
                               ctx.fontSize = '40px';
                               ctx.fillStyle = "#edd28f";
-      ctx.fillText(`Marshal Discord `, 260, 125);
+      ctx.fillText(`   Marshal Discord `, 260, 125);
       
                               //AVATARً
                               let Avatar = Canvas.Image;
